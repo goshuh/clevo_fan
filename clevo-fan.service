@@ -1,0 +1,8 @@
+[Unit]
+Description=Clevo Fan Controller
+
+[Service]
+ExecStart=/path/to/clevo-fan -s 2/48,48/60,84 -s 3/48,48/60,84
+
+[Install]
+WantedBy=default.target
